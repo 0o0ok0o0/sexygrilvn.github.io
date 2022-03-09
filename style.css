@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-image: url(https://i2-prod.mirror.co.uk/incoming/article25102800.ece/ALTERNATES/s1200d/1_A-sexy-woman-in-black-lingerie-sleeping.jpg); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:100% auto;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    
+    
+}
+.logo{
+  margin-left: 10%;
+}
+.logo img{
+    border-radius: 50%;
+}
+.abc{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 2%;
+}
+.menu-shea{
+   display: grid;
+   grid-template-columns: 1.5fr 1fr;
+}
+ul{
+    margin-left: 40px;
+
+}
+ul :hover{
+    background-color: #FFA800;
+}
+
+li{
+   display: inline;
+   padding: 20px;
+}
+li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+.shea{
+    text-align: right;
+}
+.ab{
+    width: 280px;
+    height:40px;
+    font-size: 20px;
+    background-color: rgb(197, 191, 191);
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.shea button{
+    width: 100px;
+    height: 40px;
+    color: wheat;
+    font-size: 20px;
+    background-color: red;
+    margin-left: 10px;
+    margin-right: 200px;
+    border-radius: 5px;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+}
+.text{
+   text-align: center;
+   margin-top: 25%;
+}
+.text p{
+    font-size: 45px;
+    color: white
+}
+.text h2{
+    font-size: 60px;
+    color: red;
+}
+.text button{
+    font-size: 40px;
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: violet;
+    border-radius: 5px;
+}
+.imag img{
+    margin-top: 15%;
+    border-radius: 50px;
+}
+img{
+    margin-left: 40px;
+}
+.t{
+    margin-left: 440px;
+    margin-top: 50px;
+}
+.t button{
+    font-size: 40px;
+    width: 200px;
+    height: 50px;
+    background-color: violet;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.footer{
+ margin-top: 280px;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+}
+.coppy-right{
+    font-size: 40px;
+    color: black;
+    margin: auto 32px;
+    padding-left: 16px;
+}
+
+.eml{
+    width: 278px;
+    height: 50px;
+    border: 2px solid #FFA800;
+    border-radius: 5px;
+    background-color: transparent;
+    padding-right: 24px;
+    padding-left: 26px;
+    margin-right: 12px;
+    font-size: 20px;
+
+}
+.sub{
+    background-color: #FFA800;
+    width: 220px;
+    height: 52px;
+    font-size: 16px;
+    margin-left: 12px;
+    border-radius: 5px;
+    color: #ffffff;
+
+}
+.com p{
+    font-size: 30px;
+    color: black;
+}
+.email{
+    margin-right: 100px;
+    text-align: right;}
